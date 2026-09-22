@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Fair Property Service
+   Fair Property Services Ltd
    Navigation, price estimator, contact form
    ========================================================================== */
 
@@ -10,9 +10,9 @@
      Settings: edit these to match your business
      ---------------------------------------------------------------------- */
   var CONFIG = {
-    locale: "en",
-    currency: "EUR",
-    contactEmail: "hello@fairpropertyservice.example",
+    locale: "en-GB",
+    currency: "GBP",
+    contactEmail: "fairpropertyservices@gmail.com",
 
     // Optional. Paste a form service URL (for example a Formspree endpoint)
     // to send messages directly. If empty, the form opens the visitor's
@@ -32,7 +32,12 @@
     garden:     { unit: ["hour", "hours"],       rate: 38,  min: 38,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 3,  note: "Green waste removal quoted separately if needed." },
     painting:   { unit: ["room", "rooms"],       rate: 180, min: 180, qtyMin: 1,  qtyMax: 10,  step: 1,   qty: 3,  note: "Labour and standard paint. Ceilings and trim may vary." },
     inspection: { unit: ["property", "properties"], rate: 95, min: 95, qtyMin: 1, qtyMax: 10,  step: 1,   qty: 1,  note: "Includes a photographed condition report." },
-    caretaking: { unit: ["property", "properties"], rate: 120, min: 120, qtyMin: 1, qtyMax: 10, step: 1,  qty: 1,  note: "Per month, with one regular visit." }
+    caretaking: { unit: ["property", "properties"], rate: 120, min: 120, qtyMin: 1, qtyMax: 10, step: 1,  qty: 1,  note: "Per month, with one regular visit." },
+    pest:       { unit: ["treatment", "treatments"], rate: 70, min: 70,  qtyMin: 1,  qtyMax: 5,   step: 1,   qty: 1,  note: "Includes a follow-up visit if needed." },
+    heating:    { unit: ["hour", "hours"],       rate: 65,  min: 65,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "Parts are billed separately at cost." },
+    plumbing:   { unit: ["hour", "hours"],       rate: 60,  min: 60,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "Parts are billed separately at cost." },
+    gassafety:  { unit: ["check", "checks"],     rate: 65,  min: 65,  qtyMin: 1,  qtyMax: 10,  step: 1,   qty: 1,  note: "Carried out by a Gas Safe registered engineer." },
+    boiler:     { unit: ["hour", "hours"],       rate: 90,  min: 90,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "New installations are quoted after a home visit." }
   };
 
   var SERVICE_LABELS = {
@@ -41,7 +46,12 @@
     garden: "Garden and grounds",
     painting: "Painting and decorating",
     inspection: "Property inspection",
-    caretaking: "Caretaking"
+    caretaking: "Caretaking",
+    pest: "Pest control",
+    heating: "Heating",
+    plumbing: "Plumbing",
+    gassafety: "Gas safety check",
+    boiler: "Boiler installation and repair"
   };
 
   var money = new Intl.NumberFormat(CONFIG.locale, {
