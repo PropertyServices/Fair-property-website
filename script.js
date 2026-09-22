@@ -27,12 +27,7 @@
   // Rates used by the price estimator. Keep them in line with the
   // "from" prices shown in the Services section of index.html.
   var SERVICES = {
-    cleaning:   { unit: ["m²", "m²"],            rate: 3,   min: 60,  qtyMin: 20, qtyMax: 400, step: 5,   qty: 60, note: "Per visit. Supplies included." },
-    repairs:    { unit: ["hour", "hours"],       rate: 45,  min: 45,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "Materials are billed separately at cost." },
-    garden:     { unit: ["hour", "hours"],       rate: 38,  min: 38,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 3,  note: "Green waste removal quoted separately if needed." },
     painting:   { unit: ["room", "rooms"],       rate: 180, min: 180, qtyMin: 1,  qtyMax: 10,  step: 1,   qty: 3,  note: "Labour and standard paint. Ceilings and trim may vary." },
-    inspection: { unit: ["property", "properties"], rate: 95, min: 95, qtyMin: 1, qtyMax: 10,  step: 1,   qty: 1,  note: "Includes a photographed condition report." },
-    caretaking: { unit: ["property", "properties"], rate: 120, min: 120, qtyMin: 1, qtyMax: 10, step: 1,  qty: 1,  note: "Per month, with one regular visit." },
     pest:       { unit: ["treatment", "treatments"], rate: 70, min: 70,  qtyMin: 1,  qtyMax: 5,   step: 1,   qty: 1,  note: "Includes a follow-up visit if needed." },
     heating:    { unit: ["hour", "hours"],       rate: 65,  min: 65,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "Parts are billed separately at cost." },
     plumbing:   { unit: ["hour", "hours"],       rate: 60,  min: 60,  qtyMin: 1,  qtyMax: 16,  step: 0.5, qty: 2,  note: "Parts are billed separately at cost." },
@@ -41,12 +36,7 @@
   };
 
   var SERVICE_LABELS = {
-    cleaning: "Cleaning",
-    repairs: "Repairs and handyman",
-    garden: "Garden and grounds",
     painting: "Painting and decorating",
-    inspection: "Property inspection",
-    caretaking: "Caretaking",
     pest: "Pest control",
     heating: "Heating",
     plumbing: "Plumbing",
