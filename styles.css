@@ -705,9 +705,18 @@ input[type="range"] {
   gap: 14px !important;
 }
 
+/* Ensure the brand container aligns items side-by-side */
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+/* Force logo image width to expand and ignore header height caps */
 .brand__mark {
-  width: 160px !important;       /* Sets a clear wide footprint for the logo */
-  height: auto !important;        /* Keeps original proportions without distortion */
-  max-height: 55px !important;    /* Allows a taller presence while keeping header slim */
+  width: 220px !important;       /* Increases the visual size dramatically */
+  height: auto !important;        /* Prevents squishing */
+  max-width: none !important;
+  max-height: none !important;    /* Unlocks strict header height caps */
   object-fit: contain !important;
 }
