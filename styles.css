@@ -700,8 +700,8 @@ input[type="range"] {
 }
 
 .brand__mark {
-  width: auto !important;
-  height: 150px !important;      /* Increased height to make it much bigger */
-  max-height: 80px !important;  /* Fits nicely within the header */
+  width: 250px !important;       /* Forces a much wider layout */
+  height: auto !important;        /* Prevents vertical distortion */
+  max-height: none !important;    /* Overrides default theme caps */
   object-fit: contain;
 }
