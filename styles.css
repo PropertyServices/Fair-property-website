@@ -701,7 +701,7 @@ input[type="range"] {
 
 .brand__mark {
   width: auto !important;
-  height: 48px !important; /* Increase from 34px to 48px */
-  max-height: 60px !important;
+  height: 150px !important;      /* Increased height to make it much bigger */
+  max-height: 80px !important;  /* Fits nicely within the header */
   object-fit: contain;
 }
