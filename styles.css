@@ -699,9 +699,15 @@ input[type="range"] {
   gap: 12px;
 }
 
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
 .brand__mark {
-  width: 250px !important;       /* Forces a much wider layout */
-  height: auto !important;        /* Prevents vertical distortion */
-  max-height: none !important;    /* Overrides default theme caps */
-  object-fit: contain;
+  width: 160px !important;       /* Sets a clear wide footprint for the logo */
+  height: auto !important;        /* Keeps original proportions without distortion */
+  max-height: 55px !important;    /* Allows a taller presence while keeping header slim */
+  object-fit: contain !important;
 }
