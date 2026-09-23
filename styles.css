@@ -691,3 +691,17 @@ input[type="range"] {
   font-size: 1.1rem;
   color: var(--chalk);
 }
+
+/* Increase header logo size and maintain proportions */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand__mark {
+  width: auto !important;
+  height: 48px !important; /* Increase from 34px to 48px */
+  max-height: 60px !important;
+  object-fit: contain;
+}
