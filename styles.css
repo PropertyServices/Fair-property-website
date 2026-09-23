@@ -708,7 +708,7 @@ input[type="range"] {
 
 /* Control logo size so header stays compact */
 .brand__mark {
-  width: auto !important;
+  width: 250px !important;
   height: 40px !important;        /* Restricts logo height so header doesn't blow up */
   max-height: 40px !important;
   object-fit: contain !important;
