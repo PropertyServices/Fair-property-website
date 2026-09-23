@@ -713,21 +713,21 @@ input[type="range"] {
 }
 
 
-/* Align logo image and brand name side-by-side with padding */
+/* Align container and make room between logo and text */
 .brand {
   display: flex !important;
   align-items: center !important;
-  gap: 24px !important;
+  gap: 120px !important;            /* Pushes the text further to the right */
   overflow: visible !important;
 }
 
-/* Scale the rendered image graphic up directly */
+/* Adjust scale transform and nudge logo down for perfect vertical alignment */
 .brand__mark {
   width: 120px !important;
   height: auto !important;
   max-width: none !important;
   max-height: none !important;
-  transform: scale(2.2);        /* Scales up the visual size of the graphic */
-  transform-origin: center left; /* Keeps the enlarged image anchored to the left */
+  transform: scale(2.2) translateY(3px); /* Shifts the logo image slightly downward */
+  transform-origin: center left;
   object-fit: contain !important;
 }
