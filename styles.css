@@ -699,9 +699,17 @@ input[type="range"] {
   gap: 12px;
 }
 
+/* Keep brand area aligned horizontally */
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+/* Control logo size so header stays compact */
 .brand__mark {
-  width: 250px !important;       /* Forces a much wider layout */
-  height: auto !important;        /* Prevents vertical distortion */
-  max-height: none !important;    /* Overrides default theme caps */
-  object-fit: contain;
+  width: auto !important;
+  height: 40px !important;        /* Restricts logo height so header doesn't blow up */
+  max-height: 40px !important;
+  object-fit: contain !important;
 }
