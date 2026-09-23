@@ -712,11 +712,22 @@ input[type="range"] {
   gap: 16px !important;
 }
 
-/* Force logo image width to expand and ignore header height caps */
+
+/* Align logo image and brand name side-by-side with padding */
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 24px !important;
+  overflow: visible !important;
+}
+
+/* Scale the rendered image graphic up directly */
 .brand__mark {
-  width: 220px !important;       /* Increases the visual size dramatically */
-  height: auto !important;        /* Prevents squishing */
+  width: 120px !important;
+  height: auto !important;
   max-width: none !important;
-  max-height: none !important;    /* Unlocks strict header height caps */
+  max-height: none !important;
+  transform: scale(2.2);        /* Scales up the visual size of the graphic */
+  transform-origin: center left; /* Keeps the enlarged image anchored to the left */
   object-fit: contain !important;
 }
