@@ -948,3 +948,26 @@ footer a[href="#top"]:hover {
   transform: translateY(-3px);
 }
 
+
+
+
+/* Dark Navy Blue style for all primary buttons and form submit buttons */
+.btn--primary,
+button[type="submit"],
+.btn[href="#contact"] {
+  background-color: #0f1c3f !important; /* Dark Navy Blue */
+  color: #ffffff !important;
+  border: none !important;
+  font-weight: 700 !important;
+  transition: background-color 0.25s ease, transform 0.2s ease !important;
+}
+
+/* Hover state: turn orange when hovered */
+.btn--primary:hover,
+button[type="submit"]:hover,
+.btn[href="#contact"]:hover {
+  background-color: #e38d32 !important; /* Brand Orange */
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
