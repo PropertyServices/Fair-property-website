@@ -713,21 +713,42 @@ input[type="range"] {
 }
 
 
-/* Align container and make room between logo and text */
+/* Stack brand text vertically next to logo */
 .brand {
   display: flex !important;
   align-items: center !important;
-  gap: 120px !important;            /* Pushes the text further to the right */
+  gap: 16px !important;
   overflow: visible !important;
 }
 
-/* Adjust scale transform and nudge logo down for perfect vertical alignment */
 .brand__mark {
-  width: 120px !important;
+  width: 140px !important;
   height: auto !important;
-  max-width: none !important;
   max-height: none !important;
-  transform: scale(2.2) translateY(3px); /* Shifts the logo image slightly downward */
-  transform-origin: center left;
   object-fit: contain !important;
+}
+
+/* Container for Title and Slogan */
+.brand__text-group {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
+
+/* Company Title */
+.brand__title {
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  color: #0f1c3f !important;  /* Navy blue matching the roof logo tint */
+  line-height: 1.2 !important;
+}
+
+/* Gold/Orange Slogan underneath */
+.brand__slogan {
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  color: #e38d32 !important;  /* Warm gold matching your image */
+  margin-top: 2px !important;
+  line-height: 1.1 !important;
 }
