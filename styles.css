@@ -971,3 +971,28 @@ button[type="submit"]:hover,
   cursor: pointer;
 }
 
+
+
+
+
+/* Hero section action buttons styling */
+.hero__actions .btn,
+.hero__actions a.btn {
+  background-color: #0f1c3f !important; /* Dark Navy Blue */
+  color: #ffffff !important;
+  border: 1px solid #0f1c3f !important;
+  font-weight: 700 !important;
+  border-radius: 6px !important;
+  padding: 10px 20px !important;
+  text-decoration: none !important;
+  transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.2s ease !important;
+}
+
+/* Hover state: turn orange when cursor hovers over them */
+.hero__actions .btn:hover,
+.hero__actions a.btn:hover {
+  background-color: #e38d32 !important; /* Brand Orange */
+  border-color: #e38d32 !important;
+  color: #ffffff !important;
+}
+
