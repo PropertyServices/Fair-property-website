@@ -739,9 +739,9 @@ input[type="range"] {
 /* Slogan underneath */
 .brand__slogan {
   font-weight: 700 !important;
-  font-size: 1.30rem !important;   /* Increased font size further */
+  font-size: 1.2rem !important;    /* Slightly adjusted size for cleaner proportion */
   color: #e38d32 !important;      /* Warm gold color */
-  margin-top: 1px !important;    /* Negative top margin pulls it closer to the logo */
+  margin-top: -10px !important;   /* Pulls text up close to the logo */
   line-height: 1 !important;
   white-space: nowrap !important;
 }
@@ -776,7 +776,9 @@ input[type="range"] {
 
 
 
-/* Update header background color only */
+/* Update header background and padding */
 .site-header {
   background: linear-gradient(135deg, #a3cbe8 0%, #4f96ab 100%) !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
