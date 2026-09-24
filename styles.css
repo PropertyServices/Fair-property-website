@@ -713,6 +713,9 @@ input[type="range"] {
 }
 
 
+
+
+
 /* Align logo and slogan centered in header */
 .brand {
   display: inline-flex !important;
@@ -731,6 +734,8 @@ input[type="range"] {
   object-fit: contain !important;
 }
 
+
+
 /* Slogan underneath */
 .brand__slogan {
   font-weight: 700 !important;
@@ -740,6 +745,9 @@ input[type="range"] {
   line-height: 1 !important;
   white-space: nowrap !important;
 }
+
+
+
 
 /* Floating Back to Top Button */
 .back-to-top {
@@ -763,4 +771,12 @@ input[type="range"] {
 
 .back-to-top:hover {
   background-color: #e38d32;
+}
+
+
+
+
+/* Update header background color only */
+.site-header {
+  background: linear-gradient(135deg, #a3cbe8 0%, #4f96ab 100%) !important;
 }
