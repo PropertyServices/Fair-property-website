@@ -996,3 +996,26 @@ button[type="submit"]:hover,
   color: #ffffff !important;
 }
 
+
+
+
+/* Step numbers (1, 2, 3, 4) in How It Works section */
+.step__number,
+.steps__number,
+[class*="step"]::before,
+.process__number {
+  color: #0f1c3f !important; /* Dark Navy Blue */
+}
+
+/* Hero checkmark icons and bullet points */
+.hero__ticks svg,
+.hero__ticks img,
+.hero__ticks ::before,
+.hero__features svg,
+.hero__features img,
+.hero__trust svg,
+.hero__trust img,
+[class*="check"] {
+  color: #0f1c3f !important;
+  fill: #0f1c3f !important;
+}
