@@ -733,10 +733,10 @@ input[type="range"] {
 
 /* Slogan underneath */
 .brand__slogan {
-  font-weight: 600 !important;
-  font-size: 1.15rem !important;   /* Increased size (was 0.9rem) */
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;   /* Increased font size further */
   color: #e38d32 !important;      /* Warm gold color */
-  margin-top: 4px !important;     /* Slight extra top margin for breathing room */
+  margin-top: -2px !important;    /* Negative top margin pulls it closer to the logo */
   line-height: 1 !important;
   white-space: nowrap !important;
 }
