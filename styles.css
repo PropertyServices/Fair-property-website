@@ -1044,3 +1044,28 @@ li.tick::before {
   fill: #0f1c3f !important;
   color: #0f1c3f !important;
 }
+
+
+
+
+
+/* Universal Override for Hero Checkmark Circles */
+.hero span[class*="icon"],
+.hero i[class*="check"],
+.hero div[class*="check"],
+.hero svg,
+.hero svg * {
+  fill: #0f1c3f !important;
+  color: #0f1c3f !important;
+  background-color: transparent !important;
+}
+
+/* If the checkmarks use inline SVG backgrounds or CSS masks */
+.ticks__icon,
+.check-icon,
+.icon-check,
+.feature-check {
+  background-color: #0f1c3f !important;
+  border-color: #0f1c3f !important;
+  color: #ffffff !important;
+}
