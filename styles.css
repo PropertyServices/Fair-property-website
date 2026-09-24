@@ -713,7 +713,6 @@ input[type="range"] {
 }
 
 
-/* Stack logo and slogan vertically */
 .brand {
   display: inline-block !important;
   text-decoration: none !important;
@@ -724,24 +723,24 @@ input[type="range"] {
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
+  gap: 0px !important;
 }
 
-/* Wide, clear logo image */
 .brand__mark {
   width: 220px !important;
   height: auto !important;
   max-width: none !important;
   max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
   object-fit: contain !important;
 }
 
-/* Slogan underneath the logo */
 .brand__slogan {
   font-weight: 600 !important;
   font-size: 0.9rem !important;
-  color: #e38d32 !important;  /* Warm gold matching your target design */
-  margin-top: 4px !important;
-  letter-spacing: 0.5px !important;
-  text-align: center !important;
+  color: #e38d32 !important;
+  margin-top: 2px !important;
+  line-height: 1 !important;
   white-space: nowrap !important;
 }
