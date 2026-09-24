@@ -782,3 +782,74 @@ input[type="range"] {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
+
+
+
+
+
+/* Header Actions Alignment */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Call Us Button Styling */
+.btn--call {
+  background-color: #b32d2e !important; /* Deep red call button matching sample */
+  color: #ffffff !important;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn--call:hover {
+  background-color: #8c2223 !important;
+}
+
+/* Services Dropdown Container */
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Dropdown Menu Box */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 1000;
+  padding: 8px 0;
+}
+
+.dropdown-menu a {
+  color: #0f1c3f !important;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f5ff;
+  color: #e38d32 !important;
+}
+
+/* Show Dropdown on Hover */
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}

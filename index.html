@@ -41,26 +41,51 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
+
+
   <header class="site-header" id="top">
     <div class="wrap site-header__inner">
+      <!-- Logo & Slogan Link -->
       <a class="brand" href="index.html#top" aria-label="Fair Property Services Ltd, home">
-  <img src="logo.png" alt="Fair Property Service LTD Logo" class="brand__mark">
-  <span class="brand__slogan">Expertise You Can Trust</span>
-</a>
+        <img src="logo.png" alt="Fair Property Service LTD Logo" class="brand__mark">
+        <span class="brand__slogan">Expertise You Can Trust</span>
+      </a>
 
+      <!-- Mobile Nav Toggle -->
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
 
-      <nav class="nav" id="site-nav" aria-label="Main">
+      <!-- Navigation Bar -->
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
         <ul class="nav__list">
-          <li><a href="#services">Services</a></li>
+          <li><a href="index.html#top">Home</a></li>
+          
+          <!-- Dropdown Menu for Services -->
+          <li class="nav-dropdown">
+            <a href="#services" class="dropdown-toggle">Services ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="#pest-control">Pest Control</a></li>
+              <li><a href="#painting">Painting & Decorating</a></li>
+              <li><a href="#plumbing">Plumbing & Heating</a></li>
+              <li><a href="#gas-safety">Gas Safety Checks</a></li>
+              <li><a href="#boilers">Boiler Service & Repair</a></li>
+            </ul>
+          </li>
+
           <li><a href="#process">How it works</a></li>
           <li><a href="#estimate">Estimate</a></li>
           <li><a href="#questions">Questions</a></li>
-          <li><a class="btn btn--small btn--primary" href="#contact">Get a quote</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <a href="tel:+447000000000" class="btn btn--small btn--call">Call Us 24/7</a>
+        <a href="#contact" class="btn btn--small btn--primary">Get a quote</a>
+      </div>
     </div>
   </header>
+
 
   <main id="main">
 
