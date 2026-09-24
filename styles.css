@@ -891,3 +891,60 @@ footer a[href="#top"] {
 footer a[href="#top"]:hover {
   color: #e38d32 !important; /* Orange on hover */
 }
+
+
+
+/* Smooth scrolling across the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Match Footer Background to Header Gradient */
+footer,
+.site-footer {
+  background: linear-gradient(135deg, #a3cbe8 0%, #4f96ab 100%) !important;
+  color: #0f1c3f !important;
+}
+
+/* Footer Back-to-Top Text Link */
+.footer-top-link,
+footer a[href="#top"] {
+  color: #0f1c3f !important;
+  font-weight: 700;
+  text-decoration: underline;
+  transition: color 0.2s ease !important;
+}
+
+.footer-top-link:hover,
+footer a[href="#top"]:hover {
+  color: #e38d32 !important; /* Orange on hover */
+}
+
+/* Floating Back-to-Top Arrow Button (Dark Navy Blue) */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  background-color: #0f1c3f !important; /* Dark Navy Blue matching Get a Quote */
+  color: #ffffff !important; /* White Arrow */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  transition: background-color 0.25s ease, transform 0.2s ease !important;
+}
+
+/* Floating Button Orange Hover Effect */
+.back-to-top:hover {
+  background-color: #e38d32 !important; /* Orange on hover */
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
