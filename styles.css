@@ -1019,3 +1019,28 @@ button[type="submit"]:hover,
   color: #0f1c3f !important;
   fill: #0f1c3f !important;
 }
+
+
+
+
+
+/* Dark Navy Blue Checkmarks in Hero Section */
+.hero__ticks li::before,
+.hero__bullets li::before,
+.hero__list li::before,
+.hero__trust li::before,
+.hero__proof li::before,
+.hero__features li::before,
+ul.ticks li::before,
+li.tick::before {
+  background-color: #0f1c3f !important; /* Circle Background */
+  color: #ffffff !important;            /* White Checkmark Arrow */
+}
+
+/* For Inline SVG or Image Icons */
+.hero svg circle,
+.hero svg path,
+.hero img {
+  fill: #0f1c3f !important;
+  color: #0f1c3f !important;
+}
