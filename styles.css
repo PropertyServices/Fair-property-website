@@ -853,3 +853,24 @@ input[type="range"] {
 .nav-dropdown:hover .dropdown-menu {
   display: block;
 }
+
+
+
+/* Matching Button Styling for Call Us & Get a Quote */
+.header-actions .btn--call,
+.header-actions .btn--primary {
+  background-color: #0f1c3f !important; /* Dark Navy Blue */
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+  text-decoration: none !important;
+  transition: background-color 0.25s ease, transform 0.2s ease !important;
+}
+
+/* Hover Effect: Turn Orange when cursor is over the buttons */
+.header-actions .btn--call:hover,
+.header-actions .btn--primary:hover {
+  background-color: #e38d32 !important; /* Brand Orange */
+  color: #ffffff !important;
+}
