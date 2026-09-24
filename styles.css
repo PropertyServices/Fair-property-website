@@ -874,3 +874,20 @@ input[type="range"] {
   background-color: #e38d32 !important; /* Brand Orange */
   color: #ffffff !important;
 }
+
+
+
+
+
+/* Footer "Back to top" text link styling */
+.footer-top-link,
+footer a[href="#top"] {
+  color: #a3cbe8 !important; /* Light header blue */
+  text-decoration: underline;
+  transition: color 0.2s ease !important;
+}
+
+.footer-top-link:hover,
+footer a[href="#top"]:hover {
+  color: #e38d32 !important; /* Orange on hover */
+}
