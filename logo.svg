@@ -2,16 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="210.00002mm"
+   height="296.25949mm"
+   viewBox="0 0 210.00001 296.25949"
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   sodipodi:docname="13.svg"
-   inkscape:export-filename="Final logos\Fair_PS1.svg"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png1.svg"
+   inkscape:export-xdpi="120.95238"
+   inkscape:export-ydpi="120.95238"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -91,7 +91,8 @@
          id="path10-4" /></clipPath></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"
+     transform="translate(-29.044273,-109.38074)"><g
        transform="matrix(4.2983079,0,0,3.2123052,70.829748,118.02165)"
        id="g10-1"><g
          clip-path="url(#SvgjsClipPath1002-7)"
